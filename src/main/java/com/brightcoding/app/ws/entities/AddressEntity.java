@@ -16,7 +16,7 @@ public class AddressEntity implements Serializable  {
 
 	private static final long serialVersionUID = -3492236730470136101L;
 	
-	@Id
+	@Id //generate id
 	@GeneratedValue
 	private long id; 
 	
